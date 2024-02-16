@@ -49,6 +49,7 @@ contract DeployRaffle is Script {
         vm.stopBroadcast();
 
         // We already have a broadcast in here
+       // AddConsumer addConsumer = new AddConsumer();
         addConsumer.addConsumer(
             address(raffle),
             vrfCoordinatorV2,
